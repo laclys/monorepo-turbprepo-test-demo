@@ -1,0 +1,11 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "dev": {
+      "dependsOn": ["app1:dev", "app2:dev"]
+    },
+    "build": {
+      "dependsOn": []
+    }
+  }
+}

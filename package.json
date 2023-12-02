@@ -7,7 +7,8 @@
     "app1:dev": "pnpm -F @reactapps/app1 run dev",
     "app1:build": "pnpm -F @reactapps/app1 run build",
     "app2:dev": "pnpm -F @reactapps/app2 run dev",
-    "app2:build": "pnpm -F @reactapps/app2 run build"
+    "app2:build": "pnpm -F @reactapps/app2 run build",
+    "preinstall": "npx -y only-allow pnpm"
   },
   "dependencies": {
     "react": "^18.2.0",

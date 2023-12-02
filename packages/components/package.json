@@ -1,0 +1,12 @@
+{
+  "name": "@reactapps/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "exports": {
+    "./Button": "./Button/index.tsx"
+  },
+  "author": "Lac",
+  "license": "ISC"
+}

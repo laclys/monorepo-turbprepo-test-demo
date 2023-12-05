@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "app1:dev": "pnpm -F @reactapps/app1 run dev",
-    "app1:build": "pnpm -F @reactapps/app1 run build",
-    "app2:dev": "pnpm -F @reactapps/app2 run dev",
-    "app2:build": "pnpm -F @reactapps/app2 run build",
+    "dev:app1": "turbo run dev --filter=@reactapps/app1",
+    "dev:app2": "turbo run dev --filter=@reactapps/app2",
+    "build:app1": "turbo run build --filter=@reactapps/app1",
+    "build:app2": "turbo run build --filter=@reactapps/app2",
+    "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "preinstall": "npx -y only-allow pnpm"
@@ -26,6 +27,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "turbo": "^1.10.16",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   },
